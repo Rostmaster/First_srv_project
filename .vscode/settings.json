@@ -1,2 +1,13 @@
 {
+    "cSpell.words": [
+        "knexfile"
+    ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "knex_tutor",
+            "database": "${workspaceFolder:First_server_project}/db/db.sqlite3"
+        }
+    ]
 }

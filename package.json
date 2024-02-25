@@ -5,7 +5,10 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "NODE_ENV=development nodemon app.js"  },
+    "start": "NODE_ENV=development nodemon app.js",
+    "migrate": "knex migrate:latest --knexfile db/knexfile.js",
+    "seed": "knex seed:run --knexfile db/knexfile.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
